@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+data/processed/bindingdb_clean.csv
+data/processed/chembl_clean.csv
+data/processed/drugbank_clean_final.csv
+data/processed/pubmed_clean.csv
+data/processed/pubmed_embeddings.npy
+data/processed/side_effects_clean.csv
+
+.env
+.vscode/
