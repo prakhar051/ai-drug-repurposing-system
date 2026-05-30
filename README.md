@@ -111,13 +111,13 @@ Visualization Dashboard
 
 ## Home Page
 
-![Home Page](screenshots/home_page.png)
+![Home Page]("screenshots\home_page.png")
 
 ---
 
 ## Prediction Results
 
-![Prediction Results](screenshots/prediction_results.png)
+![Prediction Results]("screenshots\prediction_results.png")
 
 ---
 
@@ -129,19 +129,19 @@ Visualization Dashboard
 
 ## Drug Effectiveness Comparison
 
-![Effectiveness Comparison](screenshots/effectiveness_comparison.png)
+![Effectiveness Comparison]("screenshots\effectiveness_comparison.png")
 
 ---
 
 ## Model Accuracy Comparison
 
-![Model Accuracy](screenshots/model_accuracy.png)
+![Model Accuracy]("screenshots\model_accuracy.png")
 
 ---
 
 ## Random Forest Accuracy Analysis
 
-![Random Forest Accuracy](screenshots/random_forest_accuracy.png)
+![Random Forest Accuracy]("screenshots/random_forest_accuracy.png")
 
 ---
 
