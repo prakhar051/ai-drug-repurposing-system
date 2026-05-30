@@ -8,39 +8,33 @@ AI-powered Drug Repurposing Platform that combines Machine Learning, BioBERT emb
 
 Drug repurposing is the process of discovering new therapeutic applications for existing drugs.
 
-This project integrates machine learning, biomedical literature mining, and semantic similarity analysis to estimate the effectiveness of existing drugs against multiple infectious diseases.
+This project integrates Machine Learning, Biomedical Literature Mining, and Semantic Similarity Analysis to estimate the effectiveness of existing drugs against multiple infectious diseases.
 
-The system provides:
-
-- Drug effectiveness prediction
-- Disease-wise drug ranking
-- Binding affinity analysis
-- Literature-based evidence scoring
-- Interactive visual analytics
+The platform analyzes drug-disease relationships using TF-IDF, BioBERT embeddings, Random Forest, and Artificial Neural Networks (ANN).
 
 ---
 
 ## Features
 
-✅ Multi-drug analysis
+✅ Multi-Drug Analysis
 
-✅ Disease-specific effectiveness prediction
+✅ Disease-Specific Effectiveness Prediction
 
-✅ Drug ranking engine
+✅ Drug Ranking Engine
 
-✅ TF-IDF literature similarity scoring
+✅ TF-IDF Literature Similarity Scoring
 
-✅ BioBERT semantic analysis
+✅ BioBERT Semantic Analysis
 
-✅ Binding affinity prediction
+✅ Binding Affinity Prediction
 
-✅ Interactive Streamlit dashboard
+✅ Interactive Streamlit Dashboard
 
-✅ Heatmap visualization
+✅ Drug-Disease Heatmap Visualization
 
-✅ Model comparison analytics
+✅ Model Comparison Analytics
 
-✅ CSV result export
+✅ CSV Result Export
 
 ---
 
@@ -48,42 +42,42 @@ The system provides:
 
 ### Frontend
 
-- Streamlit
+* Streamlit
 
 ### Backend
 
-- Python
+* Python
 
 ### Machine Learning
 
-- Scikit-Learn
-- Random Forest Regressor
-- Artificial Neural Network (ANN)
+* Scikit-Learn
+* Random Forest Regressor
+* Artificial Neural Network (ANN)
 
 ### NLP
 
-- TF-IDF Vectorization
-- BioBERT
-- Sentence Transformers
+* TF-IDF Vectorization
+* BioBERT
+* Sentence Transformers
 
 ### Data Processing
 
-- Pandas
-- NumPy
+* Pandas
+* NumPy
 
 ### Visualization
 
-- Matplotlib
-- Seaborn
+* Matplotlib
+* Seaborn
 
 ---
 
 ## Datasets Used
 
-- BindingDB
-- DrugBank
-- ChEMBL
-- PubMed
+* BindingDB
+* DrugBank
+* ChEMBL
+* PubMed
 
 ---
 
@@ -91,17 +85,17 @@ The system provides:
 
 ```text
 Drug Input
-     ↓
-TF-IDF Analysis
-     ↓
-BioBERT Similarity Scoring
-     ↓
+    ↓
+TF-IDF Literature Analysis
+    ↓
+BioBERT Semantic Similarity
+    ↓
 Binding Affinity Prediction
-     ↓
+    ↓
 Score Aggregation
-     ↓
+    ↓
 Drug Ranking
-     ↓
+    ↓
 Visualization Dashboard
 ```
 
@@ -111,13 +105,13 @@ Visualization Dashboard
 
 ## Home Page
 
-![Home Page]("screenshots\home_page.png")
+![Home Page](screenshots/home_page.png)
 
 ---
 
 ## Prediction Results
 
-![Prediction Results]("screenshots\prediction_results.png")
+![Prediction Results](screenshots/prediction_results.png)
 
 ---
 
@@ -129,19 +123,19 @@ Visualization Dashboard
 
 ## Drug Effectiveness Comparison
 
-![Effectiveness Comparison]("screenshots\effectiveness_comparison.png")
+![Effectiveness Comparison](screenshots/effectiveness_comparison.png)
 
 ---
 
-## Model Accuracy Comparison
+## Model Evaluation Comparison
 
-![Model Accuracy]("screenshots\model_accuracy.png")
+![Model Accuracy](screenshots/model_accuracy.png)
 
 ---
 
-## Random Forest Accuracy Analysis
+## Random Forest Evaluation
 
-![Random Forest Accuracy]("screenshots/random_forest_accuracy.png")
+![Random Forest Accuracy](screenshots/random_forest_accuracy.png)
 
 ---
 
@@ -151,7 +145,7 @@ Visualization Dashboard
 
 ---
 
-## ANN Accuracy Analysis
+## ANN Evaluation
 
 ![ANN Accuracy](screenshots/ann_accuracy.png)
 
@@ -165,10 +159,10 @@ Visualization Dashboard
 
 # Model Performance
 
-| Model | Accuracy |
-|---------|---------|
-| Random Forest | 60.8% |
-| ANN | 48.5% |
+| Model         | Evaluation Score |
+| ------------- | ---------------- |
+| Random Forest | 60.8%            |
+| ANN           | 48.5%            |
 
 ---
 
@@ -176,32 +170,32 @@ Visualization Dashboard
 
 The platform generates:
 
-- Effectiveness Score (%)
-- Confidence Level
-- Risk Indicator
-- Binding Score
-- TF-IDF Score
-- BioBERT Similarity Score
-- Disease-wise Drug Ranking
+* Drug Effectiveness Score (%)
+* Binding Affinity Score
+* TF-IDF Similarity Score
+* BioBERT Similarity Score
+* Literature Evidence Score
+* Disease-wise Drug Ranking
+* Comparative Drug Analysis
 
 ---
 
 # Installation
 
-Clone the repository:
+## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/AI-Drug-Repurposing-System.git
-cd AI-Drug-Repurposing-System
+git clone https://github.com/prakhar051/ai-drug-repurposing-system.git
+cd ai-drug-repurposing-system
 ```
 
-Install dependencies:
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Streamlit:
+## Run Application
 
 ```bash
 streamlit run app.py
@@ -209,29 +203,27 @@ streamlit run app.py
 
 ---
 
-# Future Enhancements
-
-- Graph Neural Networks (GNN)
-- Molecular Fingerprint Features
-- Real-time PubMed Integration
-- Clinical Trial Validation
-- Transformer-based Drug Discovery Models
-- Explainable AI Dashboard
-
----
-
 # Repository Structure
 
 ```text
-drug_repurpose_ai/
+ai-drug-repurposing-system/
 │
 ├── app.py
 ├── backend.py
 ├── dataset_builder.py
 ├── trainer.py
+├── requirements.txt
+├── README.md
 │
 ├── data/
 │   └── processed/
+│       ├── bindingdb_clean.csv
+│       ├── chembl_clean.csv
+│       ├── drugbank_clean_final.csv
+│       ├── pubmed_small.csv
+│       ├── pubmed_embeddings.npy
+│       ├── demo_results.csv
+│       └── side_effects_clean.csv
 │
 ├── screenshots/
 │   ├── home_page.png
@@ -249,18 +241,33 @@ drug_repurpose_ai/
 
 ---
 
+# Future Enhancements
+
+* Graph Neural Networks (GNN)
+* Molecular Fingerprint Features
+* Knowledge Graph Visualization
+* Real-Time PubMed Integration
+* Clinical Trial Validation
+* Transformer-Based Drug Discovery Models
+* Explainable AI Dashboard
+
+---
+
 # Resume Highlights
 
-- Built an AI-powered drug repurposing platform using Machine Learning and NLP.
-- Implemented TF-IDF and BioBERT for biomedical literature analysis.
-- Developed Random Forest and ANN models for effectiveness prediction.
-- Created an interactive Streamlit dashboard with analytical visualizations.
-- Integrated data from BindingDB, DrugBank, ChEMBL, and PubMed.
+* Built an AI-powered Drug Repurposing Platform using Machine Learning and NLP techniques.
+* Implemented TF-IDF and BioBERT for biomedical literature mining and semantic similarity analysis.
+* Developed Random Forest and ANN models for binding affinity and effectiveness prediction.
+* Designed an interactive Streamlit dashboard with heatmaps, ranking panels, and comparative analytics.
+* Integrated biomedical datasets including BindingDB, DrugBank, ChEMBL, and PubMed.
+* Automated drug ranking and disease-specific recommendation workflows.
 
 ---
 
 ## Author
 
-**Prakhar**
+**Prakhar Yadav**
 
-Machine Learning • AI • Python Development
+Machine Learning Engineer | AI Developer | Python Developer
+
+GitHub: https://github.com/prakhar051
