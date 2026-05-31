@@ -1,78 +1,76 @@
 # AI Drug Repurposing System
 
-AI-powered Drug Repurposing Platform that combines Machine Learning, BioBERT embeddings, TF-IDF literature mining, and binding affinity prediction to identify potential drug candidates for infectious diseases.
+AI-powered Drug Repurposing Platform that combines Machine Learning, Biomedical NLP, BioBERT embeddings, TF-IDF literature mining, and binding affinity prediction to identify potential drug candidates for infectious and bacterial diseases.
 
 ---
 
-## Overview
+# Live Demo
 
-Drug repurposing is the process of discovering new therapeutic applications for existing drugs.
-
-This project integrates Machine Learning, Biomedical Literature Mining, and Semantic Similarity Analysis to estimate the effectiveness of existing drugs against multiple infectious diseases.
-
-The platform analyzes drug-disease relationships using TF-IDF, BioBERT embeddings, Random Forest, and Artificial Neural Networks (ANN).
+🔗 https://ai-drug-repurposing-system-nadwtvmzox96xcpvytrnjh.streamlit.app
 
 ---
 
-## Features
+# Overview
+
+Drug repurposing is the process of identifying new therapeutic applications for existing drugs. Traditional drug discovery is expensive and time-consuming, making AI-assisted repurposing an important research direction.
+
+This project integrates Machine Learning, Biomedical Literature Mining, Semantic Similarity Analysis, and Predictive Modeling to estimate the effectiveness of existing drugs against multiple infectious diseases.
+
+The platform analyzes drug-disease relationships using TF-IDF vectorization, BioBERT embeddings, Random Forest models, and Artificial Neural Networks (ANN) to generate disease-specific drug rankings and comparative analytics.
+
+---
+
+# Features
 
 ✅ Multi-Drug Analysis
-
 ✅ Disease-Specific Effectiveness Prediction
-
 ✅ Drug Ranking Engine
-
 ✅ TF-IDF Literature Similarity Scoring
-
 ✅ BioBERT Semantic Analysis
-
 ✅ Binding Affinity Prediction
-
 ✅ Interactive Streamlit Dashboard
-
 ✅ Drug-Disease Heatmap Visualization
-
-✅ Model Comparison Analytics
-
+✅ Comparative Model Analytics
 ✅ CSV Result Export
+✅ Biomedical Dataset Integration
 
 ---
 
-## Tech Stack
+# Tech Stack
 
-### Frontend
+## Frontend
 
 * Streamlit
 
-### Backend
+## Backend
 
 * Python
 
-### Machine Learning
+## Machine Learning
 
 * Scikit-Learn
 * Random Forest Regressor
 * Artificial Neural Network (ANN)
 
-### NLP
+## NLP & Semantic Analysis
 
 * TF-IDF Vectorization
 * BioBERT
 * Sentence Transformers
 
-### Data Processing
+## Data Processing
 
 * Pandas
 * NumPy
 
-### Visualization
+## Visualization
 
 * Matplotlib
 * Seaborn
 
 ---
 
-## Datasets Used
+# Datasets Used
 
 * BindingDB
 * DrugBank
@@ -81,23 +79,37 @@ The platform analyzes drug-disease relationships using TF-IDF, BioBERT embedding
 
 ---
 
-## Workflow
+# System Architecture
 
 ```text
 Drug Input
     ↓
-TF-IDF Literature Analysis
+TF-IDF Literature Mining
     ↓
-BioBERT Semantic Similarity
+BioBERT Semantic Similarity Analysis
     ↓
 Binding Affinity Prediction
     ↓
+Machine Learning Evaluation
+    ↓
 Score Aggregation
     ↓
-Drug Ranking
+Drug Ranking Engine
     ↓
 Visualization Dashboard
 ```
+
+---
+
+# Workflow
+
+1. User selects or inputs a drug candidate.
+2. Biomedical literature is processed using TF-IDF vectorization.
+3. BioBERT embeddings generate semantic similarity relationships.
+4. Binding affinity prediction models estimate effectiveness.
+5. Random Forest and ANN models evaluate prediction scores.
+6. Scores are aggregated and ranked disease-wise.
+7. Results are visualized through interactive dashboards and heatmaps.
 
 ---
 
@@ -180,6 +192,25 @@ The platform generates:
 
 ---
 
+# Challenges Faced
+
+* Processing large biomedical datasets efficiently
+* Managing BioBERT embedding computations
+* Optimizing semantic similarity workflows
+* Balancing prediction accuracy with processing time
+* Integrating multiple biomedical datasets into a unified pipeline
+
+---
+
+# Current Limitations
+
+* Predictions are research-oriented and not clinically validated
+* Limited dataset availability for certain diseases
+* BioBERT inference can increase processing time for large-scale analysis
+* Model accuracy can improve with larger biomedical datasets
+
+---
+
 # Installation
 
 ## Clone Repository
@@ -241,7 +272,7 @@ ai-drug-repurposing-system/
 
 ---
 
-# Future Enhancements
+# Production Improvements
 
 * Graph Neural Networks (GNN)
 * Molecular Fingerprint Features
@@ -255,19 +286,25 @@ ai-drug-repurposing-system/
 
 # Resume Highlights
 
-* Built an AI-powered Drug Repurposing Platform using Machine Learning and NLP techniques.
+* Built an AI-powered Drug Repurposing Platform using Machine Learning and Biomedical NLP techniques.
 * Implemented TF-IDF and BioBERT for biomedical literature mining and semantic similarity analysis.
 * Developed Random Forest and ANN models for binding affinity and effectiveness prediction.
-* Designed an interactive Streamlit dashboard with heatmaps, ranking panels, and comparative analytics.
+* Designed an interactive Streamlit dashboard with heatmaps, ranking systems, and comparative analytics.
 * Integrated biomedical datasets including BindingDB, DrugBank, ChEMBL, and PubMed.
-* Automated drug ranking and disease-specific recommendation workflows.
+* Automated disease-specific drug ranking and recommendation workflows.
 
 ---
 
-## Author
+# Why This Project Matters
 
-**Prakhar Yadav**
+Traditional drug discovery is resource-intensive and time-consuming. This project explores how AI, Machine Learning, and Biomedical NLP can assist in accelerating early-stage drug repurposing research and decision-making for infectious diseases.
 
-Machine Learning Engineer | AI Developer | Python Developer
+---
+
+# Author
+
+## Prakhar Yadav
+
+Full Stack Developer | AI Enthusiast | Backend Developer
 
 GitHub: https://github.com/prakhar051
